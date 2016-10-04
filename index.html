@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css" media="screen">
+    <title>My First Angular Assignment</title>
+  </head>
+  <body ng-app="LunchCheck">
+    <h3>Module1 Solution</h3>
+    /* NOT considering an empty item, i.e., , , as an item towards to the count */
+    <div ng-controller="LunchCheckController" class="m-t-30">
+      <input type="text" ng-class="class" ng-model="inputText" ng-blur="clearMsg();">
+      <button type="button" ng-click="getStrCount();">Check If Too Much</button>
+      <div ng-class="class" class="result_text">
+        {{msg}}
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+body {
+  line-height: 1.2em;
+  margin: auto 50px;
+}
+
+.m-t-30 {
+  margin-top: 30px;
+}
+
+button {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 12px;
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover {
+  background-color: #3e8e41
+}
+
+input {
+  color: #000;
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  width: 300px;
+  border: 1px solid #757575;
+  box-shadow: -1px 1px 2px 1px #ccc;
+  margin-right: 20px;
+}
+
+input:focus {
+  color: #000;
+}
+
+.result_text {
+  font-size: 30px;
+  font-style: italic;
+  margin-top: 30px;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+input.green {
+  border: 1px solid green;
+}
+
+input.red {
+  border: 1px solid red;
+}
